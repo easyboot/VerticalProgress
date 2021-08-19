@@ -22,7 +22,7 @@
 
       <!--  <attr name="progress_border_show" format="boolean" />-->
 
-        <attr name="myprogress_background_show" format="boolean" />
+        <attr name="my_background_show" format="boolean" />
         <attr name="progress_border_width" format="dimension" />
         <attr name="progress_gradient_enable" format="boolean" />
         <attr name="my_progress"  format="integer"/>
