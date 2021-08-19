@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--easyboot add-->
+    <item type="drawable" name="abc_ic_ab_back_material">#3333b5e5</item>
+    <item type="drawable" name="tooltip_frame_light">#3333b5e5</item>
+    <item type="drawable" name="abc_dialog_material_background">#3333b5e5</item>
+    <item type="drawable" name="tooltip_frame_dark">#3333b5e5</item>
+    <item type="drawable" name="abc_ic_menu_overflow_material">#3333b5e5</item>
+    <item type="drawable" name="abc_ic_arrow_drop_right_black_24dp">#3333b5e5</item>
+    <item type="drawable" name="abc_ratingbar_material">#3333b5e5</item>
+    <item type="drawable" name="abc_ic_clear_material">#3333b5e5</item>
+    <item type="drawable" name="abc_ic_go_search_api_material">#3333b5e5</item>
+    <item type="drawable" name="abc_ic_search_api_material">#3333b5e5</item>
+    <item type="drawable" name="abc_ic_voice_search_api_material">#3333b5e5</item>
+    <item type="drawable" name="abc_seekbar_tick_mark_material">#3333b5e5</item>
+    <item type="drawable" name="abc_text_select_handle_left_mtrl_dark">#3333b5e5</item>
+    <item type="drawable" name="abc_text_select_handle_right_mtrl_dark">#3333b5e5</item>
+    <item type="drawable" name="abc_text_select_handle_middle_mtrl_dark">#3333b5e5</item>
+    <item type="drawable" name="abc_text_select_handle_left_mtrl_light">#3333b5e5</item>
+    <item type="drawable" name="abc_text_select_handle_right_mtrl_light">#3333b5e5</item>
+    <item type="drawable" name="abc_text_select_handle_middle_mtrl_light">#3333b5e5</item>
+    <item type="drawable" name="dial_c">#3333b5e5</item>
+    <item type="drawable" name="dial_m">#3333b5e5</item>
+    <item type="drawable" name="dial_s">#3333b5e5</item>
+    <item type="drawable" name="dial_b">#3333b5e5</item>
+
+
+
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+</resources>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <!-- easyboot -->
+    <string name="test">test</string>
+    <!--unit-->
+    <string name="temperatureUnit">℃</string>
+    <string name="percentUnit">%</string>
+    <string name="voltageUnit">V</string>
+    <string name="currentUnit">A</string>
+    <string name="powerUnit">W</string>
+    <string name="consumptionUnit">kW·h</string>
+    <string name="minuteUnit">min</string>
+
+    <string name="temperature">%s℃</string>
+    <string name="percent">%s%</string>
+    <string name="voltage">%sV</string>
+    <string name="current">%sA</string>
+    <string name="power">%sW</string>
+    <string name="MinuteUint">%smin</string>
+    <string name="consumption">%skW·h</string>
+    <string name="consumption_1">0.000kW·h</string>
+    <string name="app_name">iBridger 3D Printer</string>
+    <string name="ExtrudeSpeed">挤出倍率设置</string>
+
+
+    <string name="TotalPrintTime">总打印时间:</string>
+
+
+    <string name="lb_screen_saver">屏保等待时间</string>
+
+    <string name="screen_saver_dialog_title">屏保密码</string>
+    <string name="screen_saver_dialog_msg">请输入屏保密码</string>
+
+    <string name="txt_ChangePassword">修改密码</string>
+    <string name="txt_OldPasswordIncorrect">旧密码不正确</string>
+    <string name="txt_ConfirmPasswordIncorrect">确认密码不正确</string>
+    <string name="txt_PasswordIncorrect">密码不正确</string>
+    <string name="lbl_InputOldPassword">输入旧密码</string>
+    <string name="lbl_InputNewPassword">输入新密码</string>
+    <string name="lbl_InputConfirmPassword">输入确认密码</string>
+
+    <string name="lbl_Version">版本</string>
+
+    <string name="lbl_unit_min">分钟</string>
+
+    <string name="lbl_btn_refresh">刷新</string>
+
+    <string name="lbl_FirmwareVersion">固件版本</string>
+    <string name="lbl_SoftwareVersion">软件版本</string>
+
+    <string name="lbl_Empty"> </string>
+    <string name="lbl_SetPwd">设置密码</string>
+
+    <string name="lbl_OK">确定</string>
+    <string name="lbl_Cancel">取消</string>
+    <string name="lbl_Image">Image</string>
+
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_dot">●</string>
+    <string name="key_del">Del</string>
+
+    <string name="key_cancel">✘</string>
+    <string name="key_confirm">✔</string>
+
+    <string name="key_left">◀</string>
+    <string name="key_right">▶</string>
+
+    <string name="lbl_Auto_Loading">自动装料</string>
+    <string name="lbl_Auto_Splicing_M">左料仓切换</string>
+    <string name="lbl_Auto_Splicing_S">右料仓切换</string>
+    <string name="lbl_Preheating_Extruder">喷嘴预热</string>
+    <string name="lbl_Preheating_Chamber">温腔预热</string>
+    <string name="lbl_Annealing">退火进度</string>
+
+    <string name="lbl_Time_remaining">剩余时间</string>
+    <string name="lbl_Time_elapsed">消耗时间</string>
+
+
+    <string-array name="screen_savers_time">
+
+        <item>1</item>
+
+        <item>3</item>
+
+        <item>5</item>
+
+        <item>10</item>
+
+        <item>15</item>
+
+        <item>20</item>
+
+        <item>30</item>
+
+        <item>60</item>
+
+        <item>从不</item>
+    </string-array>
+
+    <string name="zuo_pen_tou">左喷头</string>
+    <string name="you_pen_tou">右喷头</string>
+    <string name="wen_qiang">温腔</string>
+    <string name="da_yin_jin_du">打印进度</string>
+
+
+    <string name="zuo_liao_cang">左料仓</string>
+    <string name="you_liao_cang">右料仓</string>
+
+    <string name="shen_yu_shi_jian">剩余时间</string>
+    <string name="yi_yong_shi_jian">已用时间</string>
+
+    <string name="su_du">速度</string>
+    <string name="liu_liang">流量</string>
+    <string name="zuo_feng_shan">左风扇</string>
+    <string name="you_feng_shan">右风扇</string>
+
+
+    <string name="shun_shi_dian_ya">瞬时电压:</string>
+    <string name="shun_shi_dian_liu">瞬时电流:</string>
+    <string name="shun_shi_gong_lv">瞬时功率:</string>
+    <string name="zong_gong_hao">总功耗:</string>
+
+    <string name="zuo_hou_guan_wen_du">左喉管温度:</string>
+    <string name="you_hou_guan_wen_du">右喉管温度:</string>
+    <string name="x_dian_ji_wen_du">X电机温度:</string>
+    <string name="y_dian_ji_wen_du">Y电机温度:</string>
+
+    <string name="zhu_ban_wen_du">主板温度:</string>
+    <string name="mos_wen_du">MOS温度:</string>
+    <string name="ping_tai_wen_du">平台温度:</string>
+    <string name="chu_feng_wen_du">出风温度:</string>
+
+
+    <string name="liao_cang_shi_du">料仓湿度:</string>
+    <string name="chu_shi_zhuang_tai">除湿状态:</string>
+
+    <string name="qiang_men_zhuang_tai">腔门状态:</string>
+
+
+    <string name="m1_cang_bei_yong">M1仓备用:</string>
+    <string name="m1_cang_shi_yong">M1仓使用:</string>
+    <string name="s1_cang_bei_yong">S1仓备用:</string>
+    <string name="s1_cang_shi_yong">S1仓使用:</string>
+    <string name="m2_cang_bei_yong">M2仓备用:</string>
+    <string name="m2_cang_shi_yong">M2仓使用:</string>
+    <string name="s2_cang_bei_yong">S2仓备用:</string>
+    <string name="s2_cang_shi_yong">S2仓使用:</string>
+
+    <string name="dao_chu_ri_zhi">导出日志</string>
+    <string name="shua_xin">刷新</string>
+
+    <string name="tui_liao">退料</string>
+    <string name="jin_liao">进料</string>
+    <string name="suo_you">探测</string>
+
+    <string name="yu_re">平台</string>
+
+    <string name="wen_qiang_2">自动调平</string>
+    <string name="disable_level">未激活</string>
+    <string name="c">激活</string>
+    <string name="zuo">清理</string>
+    <string name="you">查看</string>
+    <string name="ji_chu_tou">喷头</string>
+
+
+    <string name="da_yin">打印</string>
+    <string name="fu_zhi">复制</string>
+    <string name="zhan_tie">粘贴</string>
+
+    <string name="jie_shou">接收</string>
+    <string name="fa_song">发送</string>
+    <string name="shi_liu_jin_zhi_jie_shou">十六进制接收</string>
+    <string name="zi_dong_huan_hang">自动滚屏</string>
+    <string name="jin_yong_wen_du_cha_xun">禁用温度更新</string>
+    <string name="qin_chu">Clear</string>
+    <string name="shi_liu_jin_zhi_fa_song">十六进制发送</string>
+    <string name="guan_bi_qiang_men">请确保平台模型清除，满足打印条件，并关闭腔门</string>
+    <string name="que_ding">确定</string>
+    <string name="qu_xiao">取消</string>
+    <string name="wu_wei_wan_cheng_ren_wu">当前无未完成的打印任务</string>
+    <string name="hui_fu_da_yin">当前有未完成的打印任务，是否恢复打印?</string>
+    <string name="shi_fou_san_chu">是否删除文件?</string>
+    <string name="shi_fou_qing_kong">确定要清零功耗统计吗?</string>
+    <string name="yi_wai_qing_kuang">请在喷嘴有耗材挤出或意外情况时点击停止，退料速度尽量不要高于900%</string>
+    <string name="shi_fou_ting_zhi">确认是否停止打印?</string>
+    <string name="gua_zai_cheng_gong">请检查打印机SD卡是否挂载成功</string>
+    <string name="da_yin_zhong_bu_neng_chi">打印中不能进行此操作</string>
+    <string name="shua_xin_yu_lan">刷新预览</string>
+    <string name="da_kai_qiang_men">打印过程中打开腔门需谨慎！</string>
+    <string name="shi_fang_pin_tai_error">打印过程中不能解锁平台</string>
+    <string name="da_dao_zai_cao_zuo">请先设置喷嘴温度并待温度达到设定温度后再操作</string>
+    <string name="cha_kan_she_xiang">摄像</string>
+    <string name="pen_zui_qing_li">喷嘴清理</string>
+    <string name="shi_fang_ping_tai">释放平台</string>
+
+
+    <string name="can_shu_she_zhi">参数设置</string>
+    <string name="sheng_yin">声音</string>
+    <string name="yu_yan">语言</string>
+    <string name="yu_yan_xian_shi">中文</string>
+    <string name="ping_mu_liang_du">屏幕亮度</string>
+    <string name="bei_guang_shi_jian">背光时间</string>
+    <string name="dian_chi_dian_liang">电池电量</string>
+    <string name="ri_qi">日期</string>
+    <string name="shi_jian">时间</string>
+    <string name="she_xiang_tou">摄像头</string>
+    <string name="xu_lie_hao">序列号</string>
+    <string name="ban_ben_hao">版本号</string>
+    <string name="yue_fen">月</string>
+    <string name="ri_zi">日</string>
+    <string name="nian_fen">年</string>
+
+    <string-array name="beiguang">
+        　　
+        <item>无操作1分钟后</item>
+        　　
+        <item>无操作10分钟后</item>
+        　　
+        <item>无操作30分钟后</item>
+        　　
+        <item>永不</item>
+
+    </string-array>
+    <string name="lbl_Anneal">退火</string>
+    <string name="lbl_HeatPreservation">保温</string>
+    <string name="lbl_Uniform_Cooling">降温</string>
+    <string name="lbl_Shaping">塑形</string>
+    <string name="lbl_set">设定</string>
+    <string name="lbl_name">名称</string>
+    <string name="lbl_temperature">温度</string>
+    <string name="lbl_time">时间</string>
+    <string name="lbl_zero">0</string>
+    <string name="lbl_FloatZero">0.0</string>
+
+
+</resources>
