@@ -35,3 +35,16 @@
         </com.easyboot.mylibrary.VerticalProgress>
         
   
+下面是可用的属性
+
+    <declare-styleable name="verticalProgress">
+        <attr name="mprogress"  format="integer"/>
+        <attr name="progress_radius" format="dimension" />
+        <attr name="progress_border_width" format="dimension" />
+        <attr name="progress_gradient_enable" format="boolean" />
+        <attr name="progress_border_enable" format="boolean" />
+        <attr name="progress_start_color" format="color" />
+        <attr name="progress_solid_color" format="color" />
+        <attr name="progress_end_color" format="color" />
+        <attr name="progress_border_color" format="boolean" />
+    </declare-styleable>
