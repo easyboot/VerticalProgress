@@ -96,6 +96,7 @@ public class VerticalProgress extends View {
 
         mRectF = new RectF();
         mPaint = new Paint();
+        mPaintTxt = new Paint();
         mPaint.setAntiAlias(true);
     }
 
