@@ -14,13 +14,19 @@
     <declare-styleable name="verticalProgress">
         <attr name="mprogress"  format="integer"/>
         <attr name="progress_radius" format="dimension" />
+        <attr name="progress_border_show" format="boolean" />
         <attr name="progress_border_width" format="dimension" />
+        <!--<attr name="progress_border_color" format="boolean" />-->
+
         <attr name="progress_gradient_enable" format="boolean" />
-        <attr name="progress_border_enable" format="boolean" />
-        <attr name="progress_start_color" format="color" />
-        <attr name="progress_solid_color" format="color" />
+  <!--      <attr name="progress_start_color" format="color" />
         <attr name="progress_end_color" format="color" />
-        <attr name="progress_border_color" format="boolean" />
+        <attr name="progress_solid_color" format="color" />-->
+
+        <attr name="myprogress_background" format="color" />
+        <attr name="myprogress_progress_background" format="color" />
+        <attr name="myprogress_progress_start_color" format="color" />
+        <attr name="myprogress_progress_end_color" format="color" />
     </declare-styleable>
 
     <!-- 仪表盘自定义属性 -->

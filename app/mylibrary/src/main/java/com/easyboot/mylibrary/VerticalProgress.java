@@ -20,17 +20,19 @@ public class VerticalProgress extends View {
     private int mRadius;
     //进度条是否有边框
     private boolean mBorderEnable;
+    //边框宽度
+    private int mBorderWidth;
+    //边框的颜色
+    private int mBorderColorResId;
+
     //是否有渐变色
     private boolean mGradientEnable;
     //渐变色
     private int mStartResId;
     private int mEndResId;
-    //边框的颜色
-    private int mBorderColorResId;
+
     //进度条背景填充色
     private int mProgressBgColorId;
-    //边框宽度
-    private int mBorderWidth;
 
     private int mProgress = 30;
     private int max = 100;
@@ -64,13 +66,18 @@ public class VerticalProgress extends View {
             typedArray = context.obtainStyledAttributes(attrs, R.styleable.verticalProgress);
             mProgress = typedArray.getInt(R.styleable.verticalProgress_mprogress, 0);
             mRadius = typedArray.getInt(R.styleable.verticalProgress_progress_radius, 0);
-            mBorderEnable = typedArray.getBoolean(R.styleable.verticalProgress_progress_border_enable, false);
+            mBorderEnable = typedArray.getBoolean(R.styleable.verticalProgress_progress_border_show, false);
             mGradientEnable = typedArray.getBoolean(R.styleable.verticalProgress_progress_gradient_enable, true);
-            mStartResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_start_color, R.color.colorPrimary);
-            mProgressBgColorId = typedArray.getResourceId(R.styleable.verticalProgress_progress_solid_color, R.color.white);
-            mEndResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_end_color, R.color.color_4EA6FD);
-            mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_color, R.color.color_4EA6FD);
+           // mStartResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_start_color, R.color.colorPrimary);
+            //mProgressBgColorId = typedArray.getResourceId(R.styleable.verticalProgress_progress_solid_color, R.color.white);
+            //mEndResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_end_color, R.color.color_4EA6FD);
+           // mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_color, R.color.color_4EA6FD);
             mBorderWidth = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_width, 10);
+
+            mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_background, R.color.color_4EA6FD);
+            mStartResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_progress_start_color, R.color.colorPrimary);
+            mEndResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_progress_end_color, R.color.color_4EA6FD);
+            mProgressBgColorId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_progress_background, R.color.white);
         }
 
         if (typedArray != null) {
