@@ -43,6 +43,10 @@ public class VerticalProgress extends View {
     private RectF mRectF;
     private Paint mPaint;
 
+    //进度条文本颜色
+    private int mProgressTxtColorId;
+    private Paint mPaintTxt;
+
     public VerticalProgress(Context context) {
         super(context);
         init(context, null);
@@ -77,12 +81,13 @@ public class VerticalProgress extends View {
             mBorderWidth = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_width, 10);
 
             mBorderEnable = typedArray.getBoolean(R.styleable.verticalProgress_myprogress_background_show, false);
-            mProgress = typedArray.getInt(R.styleable.verticalProgress_myprogress_progress, 0);
-            mRadius = typedArray.getInt(R.styleable.verticalProgress_myprogress_radius, 0);
-            mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_background, R.color.color_4EA6FD);
-            mStartResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_progress_start_color, R.color.colorPrimary);
-            mEndResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_progress_end_color, R.color.color_4EA6FD);
-            mProgressBgColorId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_progress_background, R.color.white);
+            mProgress = typedArray.getInt(R.styleable.verticalProgress_my_progress, 0);
+            mRadius = typedArray.getInt(R.styleable.verticalProgress_my_radius, 0);
+            mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_my_background, R.color.color_4EA6FD);
+            mStartResId = typedArray.getResourceId(R.styleable.verticalProgress_my_progress_start_color, R.color.colorPrimary);
+            mEndResId = typedArray.getResourceId(R.styleable.verticalProgress_my_progress_end_color, R.color.color_4EA6FD);
+            mProgressBgColorId = typedArray.getResourceId(R.styleable.verticalProgress_my_progress_background, R.color.white);
+            mProgressTxtColorId= typedArray.getResourceId(R.styleable.verticalProgress_my_progress_txt_color, R.color.white);
         }
 
         if (typedArray != null) {
@@ -138,8 +143,10 @@ public class VerticalProgress extends View {
         //画第三层(进度层)圆角矩形(盖在背景层之上)
         canvas.drawRoundRect(mRectF, mRadius, mRadius, mPaint);
 
+
+        mPaintTxt.setColor(getResources().getColor(mProgressTxtColorId));
         String str = String.valueOf(mProgress);
-        canvas.drawText(str, mRectF.right - mWidth/2, mRectF.top, mPaint);
+        canvas.drawText(str, mRectF.right - mWidth/2, mRectF.top, mPaintTxt);
         //清除之前传递的shader
         mPaint.setShader(null);
     }
