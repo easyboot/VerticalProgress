@@ -19,20 +19,20 @@
   
   在xml中加入
   
-    <com.easyboot.mylibrary.VerticalProgress
+        <com.easyboot.mylibrary.VerticalProgress
             android:id="@+id/vpb_Printing"
             android:layout_width="25dp"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             app:layout_constraintRight_toRightOf="parent"
-            app:myprogress_background_show="true"
+            app:my_background_show="true"
             app:progress_gradient_enable="true"
-            app:myprogress_progress="55"
-            app:myprogress_background="@color/color_4EA6FD"
-            app:myprogress_progress_background="@color/light_gray"
-            app:myprogress_progress_start_color="@color/white"
-            app:myprogress_progress_end_color="@color/white">
-
+            app:my_progress="55"
+            app:my_background="@color/color_4EA6FD"
+            app:my_progress_background="@color/light_gray"
+            app:my_progress_start_color="@color/white"
+            app:my_progress_end_color="@color/white"
+            app:my_progress_txt_color="@color/gray">
         </com.easyboot.mylibrary.VerticalProgress>
         
   
