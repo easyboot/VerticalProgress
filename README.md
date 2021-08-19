@@ -13,7 +13,7 @@
   在build.gradle总加入
   
   	dependencies {
-	        implementation 'com.github.easyboot:VerticalProgress:0.0.1'
+	        implementation 'com.github.easyboot:VerticalProgress:0.0.8'
 	}
   
   
@@ -40,13 +40,14 @@
 
   <declare-styleable name="verticalProgress"> 
 
-        <attr name="myprogress_background_show" format="boolean" />
+           <attr name="my_background_show" format="boolean" />
         <attr name="progress_border_width" format="dimension" />
         <attr name="progress_gradient_enable" format="boolean" />
-        <attr name="myprogress_progress"  format="integer"/>
-        <attr name="myprogress_radius" format="dimension" />
-        <attr name="myprogress_background" format="color" />
-        <attr name="myprogress_progress_background" format="color" />
-        <attr name="myprogress_progress_start_color" format="color" />
-        <attr name="myprogress_progress_end_color" format="color" />
+        <attr name="my_progress"  format="integer"/>
+        <attr name="my_radius" format="dimension" />
+        <attr name="my_background" format="color" />
+        <attr name="my_progress_background" format="color" />
+        <attr name="my_progress_start_color" format="color" />
+        <attr name="my_progress_end_color" format="color" />
+        <attr name="my_progress_txt_color" format="color" />
     </declare-styleable>
