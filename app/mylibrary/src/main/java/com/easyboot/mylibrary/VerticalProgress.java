@@ -64,8 +64,8 @@ public class VerticalProgress extends View {
         TypedArray typedArray = null;
         if (attrs != null) {
             typedArray = context.obtainStyledAttributes(attrs, R.styleable.verticalProgress);
-            mProgress = typedArray.getInt(R.styleable.verticalProgress_mprogress, 0);
-            mRadius = typedArray.getInt(R.styleable.verticalProgress_progress_radius, 0);
+           // mProgress = typedArray.getInt(R.styleable.verticalProgress_mprogress, 0);
+          //  mRadius = typedArray.getInt(R.styleable.verticalProgress_progress_radius, 0);
             mBorderEnable = typedArray.getBoolean(R.styleable.verticalProgress_progress_border_show, false);
             mGradientEnable = typedArray.getBoolean(R.styleable.verticalProgress_progress_gradient_enable, true);
            // mStartResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_start_color, R.color.colorPrimary);
@@ -74,6 +74,8 @@ public class VerticalProgress extends View {
            // mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_color, R.color.color_4EA6FD);
             mBorderWidth = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_width, 10);
 
+            mProgress = typedArray.getInt(R.styleable.verticalProgress_myprogress_progress, 0);
+            mRadius = typedArray.getInt(R.styleable.verticalProgress_myprogress_radius, 0);
             mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_background, R.color.color_4EA6FD);
             mStartResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_progress_start_color, R.color.colorPrimary);
             mEndResId = typedArray.getResourceId(R.styleable.verticalProgress_myprogress_progress_end_color, R.color.color_4EA6FD);
