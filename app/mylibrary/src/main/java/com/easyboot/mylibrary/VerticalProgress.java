@@ -80,7 +80,7 @@ public class VerticalProgress extends View {
             mGradientEnable = typedArray.getBoolean(R.styleable.verticalProgress_progress_gradient_enable, true);
             mBorderWidth = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_width, 10);
 
-            mBorderEnable = typedArray.getBoolean(R.styleable.verticalProgress_myprogress_background_show, false);
+            mBorderEnable = typedArray.getBoolean(R.styleable.verticalProgress_my_background_show, false);
             mProgress = typedArray.getInt(R.styleable.verticalProgress_my_progress, 0);
             mRadius = typedArray.getInt(R.styleable.verticalProgress_my_radius, 0);
             mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_my_background, R.color.color_4EA6FD);
