@@ -77,7 +77,7 @@ public class VerticalProgress extends View {
             //mProgressBgColorId = typedArray.getResourceId(R.styleable.verticalProgress_progress_solid_color, R.color.white);
             //mEndResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_end_color, R.color.color_4EA6FD);
            // mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_color, R.color.color_4EA6FD);
-            mGradientEnable = typedArray.getBoolean(R.styleable.verticalProgress_progress_gradient_enable, true);
+            mGradientEnable = typedArray.getBoolean(R.styleable.verticalProgress_my_gradient_enable, true);
             mBorderWidth = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_width, 10);
 
             mBorderEnable = typedArray.getBoolean(R.styleable.verticalProgress_my_background_show, false);
