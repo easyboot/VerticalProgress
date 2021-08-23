@@ -51,3 +51,12 @@
         <attr name="my_progress_end_color" format="color" />
         <attr name="my_progress_txt_color" format="color" />
     </declare-styleable>
+    
+    
+    java 中使用
+     private com.easyboot.mylibrary.VerticalProgress verticalProgress;
+     
+       verticalProgress = findViewById(R.id.vpb_Printing);
+       
+        verticalProgress.setProgress(progress++);
+       
