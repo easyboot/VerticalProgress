@@ -26,8 +26,8 @@
             android:layout_centerInParent="true"
             app:layout_constraintRight_toRightOf="parent"
             app:my_background_show="true"
-            app:progress_gradient_enable="true"
-            app:my_progress="55"
+            app:my_gradient_enable="true"
+            app:my_progress="55.5"
             app:my_background="@color/color_4EA6FD"
             app:my_progress_background="@color/light_gray"
             app:my_progress_start_color="@color/white"
@@ -42,7 +42,7 @@
 
            <attr name="my_background_show" format="boolean" />
         <attr name="progress_border_width" format="dimension" />
-        <attr name="progress_gradient_enable" format="boolean" />
+        <attr name="my_gradient_enable" format="boolean" />
         <attr name="my_progress"  format="integer"/>
         <attr name="my_radius" format="dimension" />
         <attr name="my_background" format="color" />
