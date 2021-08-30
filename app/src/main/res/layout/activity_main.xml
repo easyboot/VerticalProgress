@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mytag="http://schemas.android.com/apk/lib/com.easyboot.mylibrary"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -13,6 +14,24 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.easyboot.mylibrary.VerticalProgress
+        android:id="@+id/vpb_Printing"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:layout_constraintRight_toRightOf="parent"
+        app:my_background_show="true"
+        app:my_gradient_enable="true"
+        app:my_progress="55.55"
+        app:my_background="@color/color_4EA6FD"
+        app:my_progress_background="@color/red"
+        app:my_progress_start_color="@color/white"
+        app:my_progress_end_color="@color/white"
+        app:my_progress_txt_color="@color/black">
+
+    </com.easyboot.mylibrary.VerticalProgress>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

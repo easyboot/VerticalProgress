@@ -34,7 +34,7 @@ public class VerticalProgress extends View {
     //进度条背景填充色
     private int mProgressBgColorId;
 
-    private int mProgress = 30;
+    private Float mProgress = 30F;
     private int max = 100;
 
     private int mWidth;
@@ -81,7 +81,7 @@ public class VerticalProgress extends View {
             mBorderWidth = typedArray.getResourceId(R.styleable.verticalProgress_progress_border_width, 10);
 
             mBorderEnable = typedArray.getBoolean(R.styleable.verticalProgress_my_background_show, false);
-            mProgress = typedArray.getInt(R.styleable.verticalProgress_my_progress, 0);
+            mProgress = typedArray.getFloat(R.styleable.verticalProgress_my_progress, 0F);
             mRadius = typedArray.getInt(R.styleable.verticalProgress_my_radius, 0);
             mBorderColorResId = typedArray.getResourceId(R.styleable.verticalProgress_my_background, R.color.color_4EA6FD);
             mStartResId = typedArray.getResourceId(R.styleable.verticalProgress_my_progress_start_color, R.color.colorPrimary);
@@ -146,20 +146,23 @@ public class VerticalProgress extends View {
 
 
         mPaintTxt.setColor(getResources().getColor(mProgressTxtColorId));
+
         String str = String.valueOf(mProgress);
-        canvas.drawText(str, mRectF.right - mWidth/2, mRectF.top, mPaintTxt);
+        canvas.rotate(-90, mRectF.right - mWidth / 2, mRectF.top);
+        canvas.drawText(str, 2 + mRectF.right - mWidth / 2, mRectF.top + 12, mPaintTxt);
         //清除之前传递的shader
         mPaint.setShader(null);
     }
 
 
-    public void setProgress(int currentCount) {
+    public void setProgress(float currentCount) {
 
         this.mProgress = currentCount > max ? max : currentCount;
 
         postInvalidate();
 
     }
+
 
 /*    @BindingAdapter({"mprogress"})
     public static void setProgress(final  VerticalProgress v,Integer progress) {
