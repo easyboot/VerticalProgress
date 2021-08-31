@@ -13,7 +13,7 @@
   在build.gradle总加入
   
   	dependencies {
-	        implementation 'com.github.easyboot:VerticalProgress:0.0.9'
+	        implementation 'com.github.easyboot:VerticalProgress:0.1.0'
 	}
   
   
